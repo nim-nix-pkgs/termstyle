@@ -11,7 +11,6 @@
   inputs.src-termstyle-master.ref   = "refs/heads/master";
   inputs.src-termstyle-master.owner = "PMunch";
   inputs.src-termstyle-master.repo  = "termstyle";
-  inputs.src-termstyle-master.dir   = "";
   inputs.src-termstyle-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
